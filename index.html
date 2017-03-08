@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adarsh Honawad</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Adarsh Honawad">
+
+    <!-- All CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- All JS Files -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typeit.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<!-- The Greeting Part is here -->
+<div class="container-fluid" id="code-part">
+    <h2>
+        <!-- The onscreen code part is supposed to go here -->
+        <div id="greeting-code"></div>
+        <div id="skip-button">
+            <button class="btn btn-default">Skip</button>
+        </div>
+    </h2>
+</div>
+
+<!-- The hidden navigation menu -->
+<div id="my-navbar">
+    <nav class="navbar navbar-inverse" data-spy="affix">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#section1">Home</a> </li>
+            <li><a href="#section2">About Me</a> </li>
+            <li><a href="#section3">Skills and Projects</a> </li>
+            <li><a href="#section4">Resume</a> </li>
+            <li><a href="#section5">Contact Me</a> </li>
+            <li><a href="#section6">Follow Me</a> </li>
+        </ul>
+    </nav>
+</div>
+
+<!-- After Greeting Part is here -->
+<div class="container-fluid" id="main-website-part">
+    <div class="container-fluid" id="section1">
+        <div id="section1-content">
+            <h1>
+                Hello World
+                <br>
+                <br>
+                <img src="img/face.jpg" class="img-circle">
+                <br>
+                <br>
+                Adarsh Honawad
+            </h1>
+            <div class="down-arrow" id="down-arrow">
+                <a href="#section2">
+                    <span class="glyphicon glyphicon-menu-down"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="after-first-part">
+        <div class="container-fluid" id="section2">
+            <div id="section2-content">
+                <div class="section-heading">
+                    <h2>
+                        About Me
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <p>
+                        Hello World, I am Adarsh Honawad. I am currently studying Computer Science Engineering at National Institute of
+                        Technology, Karnataka and am in my 2nd year. I am an enthusiastic Web and App Developer and have begun my career towards
+                        these fields. I wish to shape my Web and App Developing skills in the upcoming years and explore more fields of
+                        Computer Science.
+                    </p>
+                    <div id="newcarousel">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <ul class="nav nav-pills nav-justified" id="about-nav">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Education</a></li>
+                                <li data-target="#myCarousel" data-slide-to="1"><a href="#">Interests</a></li>
+                                <li data-target="#myCarousel" data-slide-to="2"><a href="#">Achievements</a> </li>
+                            </ul>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <h4>Education</h4>
+                                    <div id="education-item-1">
+                                        <dl>
+                                            <dt>National Institute of Technology - Computer Science Engineering</dt>
+                                            <dd>
+                                                - Currently studying 2<sup>nd</sup> year here (4<sup>th</sup> semester)
+                                            </dd>
+                                            <dt>Sri Kumaran Children's Home CBSE, Bangalore</dt>
+                                            <dd>
+                                                - Studied XI and XII here. Passed with 96% in my XII CBSE Boards
+                                            </dd>
+                                            <dt>Global Indian International School, Singapore</dt>
+                                            <dd>
+                                                - Studied from 1<sup>st</sup> to 10<sup>th</sup> standard here. Passed with 10 CGPA in my X CBSE-i Boards
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <h4>Interests</h4>
+                                    <p>
+                                        Apart from my interests in web and app development, which I keep doing almost all the time XD, I also enjoy watching TV Shows, playing games like
+                                        Table Tennis, Basketball and Counter-Strike! Some of my favorite TV Shows are Sherlock, Game of Thrones, Westworld and F.R.I.E.N.D.S. I also enjoy
+                                        watching movies (MARVEL movies are my personal fav). I do also read books whenever I find time. Anthony Horowitz's Alex Rider series is my all time
+                                        favorite book series.
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <h4>Achievements</h4>
+                                    <div>
+                                        <ul>
+                                            <li>Qualified for KVPY Scholarship in 2015</li>
+                                            <li>Have secured 96% in my XII CBSE Boards</li>
+                                            <li>Have secured 10 CGPA in my X CBSE-i Boards</li>
+                                            <li>Have obtained several medals for my excellent performance in IMO, NCO and NSO olympiads.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="section3">
+            <div id="section3-content">
+                <div class="section-heading">
+                    <h2>
+                        Skills and Projects
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <div class="row" id="skill-contents">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-2" id="icon-div">
+                            <a href="#modal-webdev" role="button" data-toggle="modal">
+                                <i class="fa fa-html5" id="myIcon" aria-hidden="true"></i>
+                                <p>Web Development</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-2" id="icon-div">
+                            <a href="#modal-androiddev" role="button" data-toggle="modal">
+                                <i class="fa fa-android" id="myIcon" aria-hidden="true"></i>
+                                <p>Android Development</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-2" id="icon-div">
+                            <a href="#modal-coding" role="button" data-toggle="modal">
+                                <i class="fa fa-code" id="myIcon" aria-hidden="true"></i>
+                                <p>Coding</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="section4">
+            <div id="section4-content">
+                <div class="section-heading">
+                    <h2>
+                        Resume
+                    </h2>
+                </div>
+            </div>
+            <div class="section-content">
+                <a href="files/CV-Adarsh-Honawad.pdf" id="resume-button">
+                    View&nbsp;<i class="fa fa-file-pdf-o"></i>
+                </a>
+                &nbsp;
+                <a href="files/CV-Adarsh-Honawad.pdf" download id="resume-button">
+                    Download&nbsp;<i class="fa fa-download"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid" id="section5">
+            <div id="section5-content">
+                <div class="section-heading">
+                    <h2>
+                        Contact Me
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            <div id="contact-form">
+                                <form id="gform" action="https://docs.google.com/forms/d/e/1FAIpQLSeEsd9vKpEZamF9nVzB6GpcjHc7-tLuU60rpvYJ-aCUlBA82A/formResponse" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user-o"></i></span>
+                                        <input id="contact-form-name" type="text" class="form-control" name="entry.1215343787" placeholder="Name (Required)">
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                                        <input id="contact-form-email" type="text" class="form-control" name="entry.1501473105" placeholder="Email ID (Required)">
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon">Text</span>
+                                        <textarea id="message" type="text" rows="5" class="form-control" name="entry.307811931" placeholder="Enter your message here..." style="resize: none;"></textarea>
+                                    </div>
+                                    <div id="contact-form-submit">
+                                        <button type="submit" value="Submit" class="btn btn-default">Submit</button>
+                                        &nbsp;
+                                        <button type="reset" value="Reset" class="btn btn-default" id="reset-button">Reset</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="section6">
+            <div id="section6-content">
+                <div class="section-heading">
+                    <h2>
+                        Follow Me
+                    </h2>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-2" id="follow-me-icon-div">
+                            <a href="https://www.facebook.com/adarsh.honawad">
+                                <i id="follow-me-icon" class="fa fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-2" id="follow-me-icon-div">
+                            <a href="https://github.com/adarsh2397">
+                                <i id="follow-me-icon" class="fa fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-2" id="follow-me-icon-div">
+                            <a href="#">
+                                <i id="follow-me-icon" class="fa fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Skills Independant Modals -->
+
+<!--Modal for Web-Development -->
+<div id="modal-webdev" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" id="modalHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Web Development</h4>
+            </div>
+            <div class="modal-body">
+                <div id="webdev-0">
+                    I have been learning Web Development for many years for now and am well-versed in the following:
+                    <br>
+                    HTML, CSS, JavaScript (and other JS frameworks), Jquery, Bootstrap CSS, PHP, django framework (python)
+                </div>
+                <div id="webdev-1">
+                    <h3><strong>Campus Website</strong></h3>
+                    <p>I am currently working as a part of a team to re-design and build a new college website.</p>
+                </div>
+                <br>
+                <div id="webdev-2">
+                    <h3><strong>Personal Website</strong></h3>
+                    <p>
+                        I built this website from scratch using several CSS and JS frameworks such as Bootstrap CSS, typeIt.js, Jquery.
+                        <br>
+                        It is a static personal website to tell the world about me.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal for Android Development -->
+<div id="modal-androiddev" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" id="modalHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Android App Development</h4>
+            </div>
+            <div class="modal-body">
+                <div id="webdev-0">
+                    <p>
+                        I learnt Android App Development in my first summer holidays after first year. I had developed a simple app to
+                        record bunks then and after learning a bit more, interned for an upcoming startup, ChangePay, as a front-end
+                        developer. I intend to learn more in backend development also.
+                    </p>
+                </div>
+                <div id="webdev-1">
+                    <h3><strong>ChangePay</strong></h3>
+                    <p>
+                        I am currently interning at a upcoming startup called, ChangePay as a front-end developer. I had to build a
+                        better UI on top of the existing UI on Android Studio.
+                    </p>
+                </div>
+                <div id="webdev-2">
+                    <h3><strong>RecordBunks</strong></h3>
+                    <p>
+                        I developed a simple app to record bunks in my first summer after first year as a part of a project while
+                        learning android development.
+                        <br>
+                        Link to the app: <a href="https://github.com/adarsh2397/RecBunks">https://github.com/adarsh2397/RecBunks</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Modal for Coding-->
+<div id="modal-coding" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" id="modalHeader">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Coding</h4>
+            </div>
+            <div class="modal-body">
+                <div id="webdev-0">
+                    <p>
+                        I have learnt many programming languages such as C, C++, Java and Python. I have built two games in C++ using
+                        graphics.h library: Hangman and Minesweeper.
+                    </p>
+                </div>
+                <div id="webdev-1">
+                    <h3><strong>Minesweeper</strong></h3>
+                    <p>
+                        I built a Minesweeper game along with a friend of mine in the beginning of third semester of engineering. This game
+                        is a exact look-alike of the Minesweeper game that was in Windows XP. Nostalgia made us do it! :D
+                        <br>
+                        Link: <a href="https://github.com/adarsh2397/Minesweeper">https://github.com/adarsh2397/Minesweeper</a>
+                    </p>
+                </div>
+                <div id="webdev-2">
+                    <h3><strong>Hangman</strong></h3>
+                    <p>
+                        I built a Hangman game using graphics.h library in C++ as a part of my 11th Standard Project.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
