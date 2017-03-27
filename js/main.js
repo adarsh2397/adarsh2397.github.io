@@ -1,6 +1,6 @@
 var submitted = false;
 
-$(document).ready(function(){
+$(window).ready(function(){
 
 
     function greeting() {
