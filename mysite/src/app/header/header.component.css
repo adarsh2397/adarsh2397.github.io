@@ -1,0 +1,22 @@
+.navbar {
+    width: fit-content;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+}
+
+.navbar .container-fluid {
+    padding: 0px;
+}
+
+.navbar li a {
+    padding: 6px;
+}
+
+.fa-top {
+    padding: 0;
+    margin: 5px;
+    font-size: 32px;
+}
