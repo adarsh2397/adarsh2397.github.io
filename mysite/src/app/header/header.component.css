@@ -20,3 +20,18 @@
     margin: 5px;
     font-size: 32px;
 }
+
+@media(max-width: 768px) {
+    .fa-top {
+        font-size: 22px;
+    }
+}
+
+.navbar-collapse.collapse {
+    display: block!important;
+}
+
+.navbar-nav>li,
+.navbar-nav {
+    float: left !important;
+}

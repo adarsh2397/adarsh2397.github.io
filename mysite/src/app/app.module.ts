@@ -12,6 +12,7 @@ import { AboutMeComponent } from './home/about-me/about-me.component';
 import { ProfileComponent } from './profile/profile.component';
 import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectsComponent } from './projects/projects.component';
     AboutMeComponent,
     ProfileComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
