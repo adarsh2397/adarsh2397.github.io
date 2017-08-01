@@ -490,7 +490,7 @@ module.exports = "<div class=\"container\">\n    <div class=\"page\">\n        <
 /***/ 180:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\" id=\"footer\">\n    <div class=\"footer-heading\">\n        Follow Me\n    </div>\n    <div class=\"follow-links\">\n        <a href=\"\" title=\"Facebook\"><i class=\"fa fa-facebook fa-md fa-box\"></i></a>\n        <a href=\"\" title=\"Twitter\"><i class=\"fa fa-twitter fa-md fa-box\"></i></a>\n        <a href=\"\" title=\"GitHub\"><i class=\"fa fa-github fa-md fa-box\"></i></a>\n    </div>\n    <div class=\"bottom-text\">\n        Adarsh Honawad\n    </div>\n</div>"
+module.exports = "<div class=\"container\" id=\"footer\">\n    <div class=\"footer-heading\">\n        Follow Me\n    </div>\n    <div class=\"follow-links\">\n        <a href=\"https://www.facebook.com/adarsh.honawad\" title=\"Facebook\"><i class=\"fa fa-facebook fa-md fa-box\"></i></a>\n        <a href=\"https://twitter.com/adarsh2397/\" title=\"Twitter\"><i class=\"fa fa-twitter fa-md fa-box\"></i></a>\n        <a href=\"https://github.com/adarsh2397\" title=\"GitHub\"><i class=\"fa fa-github fa-md fa-box\"></i></a>\n    </div>\n    <div class=\"bottom-text\">\n        Adarsh Honawad\n    </div>\n</div>"
 
 /***/ }),
 
